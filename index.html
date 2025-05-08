@@ -3,36 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link href="./tailwind.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
-  
 </head>
-<body class="m-0 p-0 content-center">
+<body>
 <!--Nav Section-->
-  <nav class="shadow md:flex">
-    <img src="./images/logo.svg" alt="" class="h-7 my-2.5 mx-2 md:inline md:justify-center">
-    <ul class="text-lg my-3 mx-[50%] font-medium text-gray-700 md:flex  md:justify-items-end">
-      <li class="md:m-1 ">Features</li>
-      <li class="md:m-1">Team</li>
-      <button class="bg-blue-700 px-2 rounded hover:bg-blue-600 hover:text-gray-500">
-        SignIn
-      </button>
-    </ul>
-  </nav>
+  <header class="">
+    <img src="./images/logo.svg" alt="" class="logo">
+    <nav class="navbar">
+      <ul class="nav-li">
+        <li class="m-1 ">Features</li>
+        <li class="m-1">Team</li>
+        <li class="m-1">Sign In</li>
+      </ul>
+    </nav>
+  </header>
 <!--Hero Section-->
-<main class="font-[Raleway]">
-  <img src="./images/illustration-1.svg" alt="" class="sm:mt-8 sm:p-5 sm:w-screen">
-  <h1 class="font-bold text-3xl  justify-center  m-1 p-4 text-center">All your files in one secure location, accessible anywhere.</h1>
-  <p class="text-xl  justify-center  m-1 p-4 text-center">Fylo stores your most important files in one secure location. 
+<main>
+  <img src="./images/illustration-1.svg" alt="" class="hero-image">
+  <h1 class="intro">All your files in one secure location, accessible anywhere.</h1>
+  <p class="intro-text">Fylo stores your most important files in one secure location. 
     Access them wherever you need, share and collaborate with friends, 
     family, and co-workers.</p>
-    <input type="email" placeholder="Enter your email.." class="border-black justify-center mx-3">
+    <input type="email" placeholder="Enter your email.." class="input-1">
+    <button class="btn-1">Get Started</button>
 </main>
+
+ <!--Top Section--> 
+<section>
+  <img src="./images/bg-curve-mobile.svg" alt="" class="mobile">
+  <img src="./images/bg-curve-desktop.svg" alt="" class="desktop">
+</section>
+
+<!--Info Section-->
+<section>
+  <img src="./images/illustration-2.svg" alt="" class="section-2">
+</section>
   
 
   
-
-  Get Started
 
   Stay productive, wherever you are
 
