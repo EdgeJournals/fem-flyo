@@ -202,8 +202,12 @@ article p{
   grid-template-rows: 1fr;
 }
 
+.author-name{
+font-weight: bold;
+}
+
 .author-img{
-  margin-top: 10px;
+  margin-top: 0px;
   border-radius: 50%;
   width: 50px;
 }
@@ -257,10 +261,28 @@ footer{
   font-family: Open Sans;
   font-weight: bold;
   padding: 20px;
+  color: white;
 }
 
 .footer-img{
   margin-top: 50px;
   margin-left: 20px;
   margin-bottom: 10px;
+}
+
+.phones,.emails{
+  margin-right: 10px;
+}
+
+footer p{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.footer1,.footer2,.footer3 {
+  margin-top: 30px;
+}
+
+.footer3{
+  margin-bottom: 100px;
 }
