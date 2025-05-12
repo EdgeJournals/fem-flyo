@@ -212,3 +212,55 @@ article p{
   justify-self: start;
   display: inline;
 }
+
+.closing{
+  background-color: hsl(238, 22%, 44%);
+  text-align: center;
+  padding: 2px;
+  color: white;
+  font-family: Open Sans;
+}
+
+.closing h2{
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.closing p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.closing input{
+height: 30px;
+margin: 2px;
+margin-top: 20px;
+margin-bottom: 5px;
+border-radius: 5px;
+width: 250px;
+}
+
+.closing button{
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background: hsl(224, 93%, 58%);
+  margin: 2px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 100px;
+  width: 250px;
+}
+
+footer{
+  background-color: hsl(243, 87%, 12%);
+  font-family: Open Sans;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.footer-img{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
