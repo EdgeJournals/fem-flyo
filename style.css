@@ -8,20 +8,27 @@
 }
 body{
   justify-content: center;
-  padding: 10px;
-  
 }
 header{
   display: flex;
-  margin-left: solid;
   font-family: Raleway;
   font-weight: 400;
   justify-items: center;
   color: hsl(0, 0%, 75%);
 }
 
+.logo{
+  width: 85px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 50px;
+  justify-self: start;
+}
+
 nav{
   justify-self: end;
+  display: flex;
 }
 
 .nav-li{
@@ -32,14 +39,7 @@ nav{
   margin-top: 30px ;
 }
 
-.logo{
-  width: 90px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 50px;
-  justify-self: start;
-}
+
 
 .nav-li li{
   margin-right: 12px;
@@ -49,28 +49,47 @@ main{
   display: grid;
   grid-row: 1fr;
   margin-bottom: 20px;
+  font-family: Open Sans;
+}
+
+main h1{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+main p{
+   text-align: center;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Open Sans;
 }
 
 main .hero-image{
-  width: 350px;
+  width: 100%;
   margin-top: 10px;
   font-family: Open Sans;
 }
  
 .intro{
   text-align: center;
-  margin-top: 10px;
+  margin: 2px;
+  margin-top: 20px;
 }
 
 .intro-text{
   text-align: center;
   font-size: large;
   font-weight: 300;
-
+  margin: 2px;
+  margin-top: 10px;
 }
 
 .input-1{
 height: 50px;
+margin: 2px;
 margin-top: 20px;
 margin-bottom: 10px;
 border-radius: 5px;
@@ -78,7 +97,7 @@ border-radius: 5px;
 
 ::placeholder{
   font-family: Open Sans;
-  padding-left: 10px;
+  text-align: center;
 }
 
 .btn-1{
@@ -86,19 +105,110 @@ border-radius: 5px;
   border-radius: 5px;
   border: none;
   background: hsl(224, 93%, 58%);
+  margin: 2px;
   color: white;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-
-
-
-section{
-  justify-content: center;
-  background-color: hsl(240, 75%, 98%);
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
 }
 
-.section-2{
-  width: 350px;
+.desktop{
+  display: none;
+}
+.mobile{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+.section2-img{
+  width: 100%;
+  margin: 0px;
+  background-color: hsl(240, 75%, 98%);
+}
+.section2{
+  width: 100%;
+  justify-content: center;
+  background-color: hsl(240, 75%, 98%);
+  margin-bottom: 0px;
+}
+
+h2{
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-weight: 700;
+  font-family: Open Sans;
+  font-size: 25px;
+}
+
+article{
+  margin-bottom: 30px;
+}
+article p{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Open Sans;
+}
+
+.undertext{
+  justify-content: center;
+  height: 16px;
+}
+.underline{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+  color: hsl(170, 45%, 43%);
+}
+
+.arrow{
+ align-self: center;
+}
+
+.card{
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: white;
+  width: 330px;
+  justify-self: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  box-shadow:  1px 8px 10px #302d2d;
+  font-size: 15px;
+  font-family: Open Sans;
+}
+
+.card p{
+  margin-bottom: 5px;
+}
+
+.author{
+  display: grid;
+  gap: 0px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.author-img{
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 50px;
+}
+
+.text{
+  justify-self: start;
+  display: inline;
 }
