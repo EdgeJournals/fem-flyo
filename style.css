@@ -316,6 +316,7 @@ main{
   grid-template-columns: 1fr 1fr;
   margin-bottom: 40px;
   margin: 20px;
+  justify-content: center;
 }
 
 .main2{
@@ -416,5 +417,9 @@ article p{
 .footer-close{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section2-img{
+  margin-top: 50px;
 }
 }
